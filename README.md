@@ -12,11 +12,11 @@ installation - linux
 
 installation - windows
 ----------------------
-1. no need for npm on windows[6] install via msi[7] 
-2. or get the latest from nodejs.org[8]
-3. or simply use the one in this source in bin\node.exe (or update it)
+1. no need for npm on [windows][6] install via [msi][7] 
+2. or get the latest from [nodejs.org][8]
+3. or simply use the one in this source in <code>bin\node.exe</code> (or update it)
 
-Note: noise in the windows installations gets warning - see [here for fix][http://sixarm.com/about/node_js_socket_io_fix_for_sys_and_util.html]
+Note: noise in the windows installations gets warning - see [here for fix][9]
 
 usage
 -----
@@ -29,9 +29,9 @@ or
 
     jasmine-dom --config path/to/config.yaml
 
-windows users must point to the node.exe and pass in the jasmine-dom (alternatively start up command line via here.cmd)
+windows users must point to the node.exe and pass in the jasmine-dom (alternatively start up command line via <code>here.cmd</code>)
 			
-			node bin\jasmine-dom --config path\to\config.yaml
+    node bin\jasmine-dom --config path\to\config.yaml
 			
 You can optionally provide the following arguments:
 
@@ -145,3 +145,4 @@ out.
 [7]: http://code.google.com/p/nodejs-win/downloads/list
 [8]: http://nodejs.org/#download
 [9]: http://www.jetbrains.com/teamcity/
+[10]: http://sixarm.com/about/node_js_socket_io_fix_for_sys_and_util.html
